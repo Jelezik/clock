@@ -108,3 +108,27 @@ body {
     border-radius: 5px 5px 0 0;
 
 }
+
+.clock-small {
+    width: 350px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 3px black;
+    border-radius: 7px;
+    margin-left: 1.5em;
+    font-family: "American Typewriter";
+    font-size: 50px;
+}
+
+.border-bot {
+    border-bottom: solid 3px gray;
+}
+
+.clockMonth {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+}
+
